@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Atelierbo</title>
+  <title>Atelier Bo</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,5 +10,28 @@
 </head>
 <body>
   <app-root></app-root>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA5u72vDViMduKK8vtMn3ImbLR5xHOZDBc",
+      authDomain: "atelier-bo.firebaseapp.com",
+      databaseURL: "https://atelier-bo.firebaseio.com",
+      projectId: "atelier-bo",
+      storageBucket: "atelier-bo.appspot.com",
+      messagingSenderId: "909417459372",
+      appId: "1:909417459372:web:96d62f760b4bbd40057909",
+      measurementId: "G-NMDZX3KPF5"
+    };
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 </body>
 </html>
