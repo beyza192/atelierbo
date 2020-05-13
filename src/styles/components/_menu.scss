@@ -1,0 +1,38 @@
+.menu {
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    padding: 20px 4vw;
+    position: fixed;
+    position: -webkit-fixed;
+    position: -webkit-fixed;
+    position: -moz-fixed;
+    position: -ms-fixed;
+    position: -o-fixed;
+    position: fixed;
+    top: 0px;
+    transition: all 0.5s ease;
+    width: 100vw;
+    z-index: 1;
+
+    &.sticky {
+      background-color: $brand-secondary;
+      box-shadow: 0 -4px 10px $black;
+    }
+
+    &-left, &-right {
+      // full width - padding - logo width
+      width: calc((100vw - (2 * 4vw) - 150px)/2);
+    }
+
+    &-right {
+      text-align: right;
+    }
+
+    &-item {}
+  }
+}
