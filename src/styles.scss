@@ -1,3 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+
 @import "styles/custom-variables";
-@import "styles/base/body"
+
+// base
+@import "styles/base/typography";
+@import "styles/base/body";
+@import "styles/base/logo";
