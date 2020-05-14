@@ -7,10 +7,11 @@ body {
   overflow: initial;
 }
 
-.content {margin: 100px 5vw 5vh 5vw}
+.content { margin: 100px 5vw 5vh 5vw }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Audrey, Helvetice, sans-serif;
+  margin-bottom: 2rem;
   text-transform: uppercase;
 }
 
@@ -18,8 +19,7 @@ h3 {font-size: 2vw;}
 
 a {
   color: $black;
-  font-family: Audrey, Helvetice, sans-serif;
-  font-size: $font-size-s;
+  font-family: Audrey, Helvetica, sans-serif;
   letter-spacing: 0.8px;
   padding: 3px 5px 0 5px;
   text-transform: uppercase;
@@ -33,4 +33,13 @@ a {
   &:focus {
     outline: solid 1px $beige;
   }
+}
+
+label {
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
 }

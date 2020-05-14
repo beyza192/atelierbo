@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: Audrey;
-  font-style: oblique;
+  font-style: italic;
   src: url("assets/fonts/Audrey-NormalOblique.woff") format("woff");
 }
 
@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: Audrey;
-  font-style: oblique;
+  font-style: italic;
   font-weight: 700;
   src: url("assets/fonts/Audrey-MediumOblique.woff") format("woff");
 }
@@ -89,7 +89,12 @@
 
 @font-face {
   font-family: Audrey;
-  font-style: oblique;
-  font-weight: 800;
+  font-style: italic;
+  font-weight: 900;
   src: url("assets/fonts/Audrey-BoldOblique.woff") format("woff");
 }
+
+
+.text-bold {font-weight: 700 !important;}
+.text-extra-bold {font-weight: 900 !important;}
+.text-italic {font-style: italic !important;}

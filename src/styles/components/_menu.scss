@@ -33,6 +33,8 @@
       text-align: right;
     }
 
-    &-item {}
+    &-item {
+      font-size: $font-size-s;
+    }
   }
 }
